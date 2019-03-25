@@ -19,7 +19,7 @@ public:
 	void SetThrottle(float Throttle);
 
 
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditAnywhere)
 		float TrackMaxDrivingForce = 4000000;
 	
 };
