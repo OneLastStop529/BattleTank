@@ -24,6 +24,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Input)
 	void IntendMoveForward(float Throw);
 
+	UFUNCTION(BlueprintCallable, Category = Input)
+	void IntendRotateRight(float Throw);
+
 
 private:
 	UTankTrack* LeftTrack;
